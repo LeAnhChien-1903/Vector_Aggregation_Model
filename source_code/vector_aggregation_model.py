@@ -366,4 +366,4 @@ def main(world_name, numberOfAgents, trials, performance_request, numberOfIterat
         np.savetxt(performanceFilePath, result, fmt='%.2f')
         cv2.destroyAllWindows()
 if __name__ == '__main__':
-    main(world_name = "empty", numberOfAgents= 25, trials= 5, performance_request= 96, numberOfIterations= 2000, mode = "not_fix")
+    main(world_name = "empty", numberOfAgents= 20, trials= 1, performance_request= 96, numberOfIterations= 2000, mode = "not_fix")
